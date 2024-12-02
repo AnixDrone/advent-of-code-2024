@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 input.txt
+test_input.txt
+.python-version
 
 # C extensions
 *.so
