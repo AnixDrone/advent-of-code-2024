@@ -8,8 +8,6 @@ def solver():
     one_removal_report = [
         report for report in invalid_reports if check_one_removal_report(report)
     ]
-    # print(valid_reports)
-    # print(one_removal_report)
     print(len(valid_reports) + len(one_removal_report))
 
 def check_safe_report(report: list[int]):
