@@ -2,6 +2,8 @@ from day1.part1 import solver as day1_part1_solver
 from day1.part2 import solver as day1_part2_solver
 from day2.part1 import solver as day2_part1_solver
 from day2.part2 import solver as day2_part2_solver
+from day3.part1 import solver as day3_part1_solver
+from day3.part2 import solver as day3_part2_solver
 import argparse
 
 
@@ -24,5 +26,10 @@ if __name__ == "__main__":
             print(day2_part1_solver())
         if args.part == 2:
             print(day2_part2_solver())
+    if args.day == 3:
+        if args.part == 1:
+            print(day3_part1_solver())
+        if args.part == 2:
+            print(day3_part2_solver())
     else:
         print("Invalid part number")
